@@ -15,7 +15,7 @@ public class Main {
         for(int i = 0;i < n; i++){
             arr[i] = in.nextInt();
         }
-        solve(n, arr);
+        System.out.println(solve(n, arr));
     }
 
     public static int solve(int n, int[] arr){
